@@ -3,11 +3,10 @@ import { GithubUserService } from './github-user.service';
 
 @Component({
   selector: 'app-github-user',
-  templateUrl: './github-user.component.html',
-  styleUrls: ['./github-user.component.scss'],
+  templateUrl: './github-user.component.html'
 })
-export class 
-GithubUserComponent {
+export class
+  GithubUserComponent {
   username = 'No user data';
   isButtonDisabled = false;
   constructor(private githubUserService: GithubUserService) { }
